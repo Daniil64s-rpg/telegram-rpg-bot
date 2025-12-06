@@ -4,14 +4,12 @@
   "description": "Telegram бот для RPG игры",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "node bot.js"
+    "start": "node bot.js"
   },
   "keywords": ["telegram", "bot", "rpg", "game"],
-  "author": "Ваше Имя",
+  "author": "Daniil64s-rpg",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.3.1",
     "node-telegram-bot-api": "^0.64.0"
   },
   "engines": {
