@@ -1,0 +1,20 @@
+{
+  "name": "telegram-rpg-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для RPG игры",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": ["telegram", "bot", "rpg", "game"],
+  "author": "Ваше Имя",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
