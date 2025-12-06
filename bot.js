@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const http = require('http');
 
 // ===== НАСТРОЙКИ =====
-const BOT_TOKEN = process.env.8278271054:AAHTphiseS6mMHm_vpVDJ2nrrziye4eDzbg;
-const GAME_URL = process.env.GAME_URL || 'https://my-telegram-game-hcvwbobrf-daniils-projects-0a0875d5.vercel.app';
+const BOT_TOKEN = process.env.BOT_TOKEN;
+const GAME_URL = process.env.GAME_URL;
 
 // Проверка токена
 if (!BOT_TOKEN) {
